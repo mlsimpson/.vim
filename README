@@ -1,0 +1,19 @@
+Collection of Vim plugins.
+
+- NERD_tree
+  File browser w/in vim.  Activated with Ctrl-N
+
+- cvim
+  Adds hella c support for vim.
+
+- rails
+  Rails support.
+
+- NERD_Commenter
+  Mo' badass text commenting.
+
+- snipMate
+  Adds TextMate-like snippets with tab completion to a multitude of languages.
+
+- MiniBufExplorer
+  List of open buffers toggled by ,mbe or ,mbc at the top of the screen.
