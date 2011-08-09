@@ -12,6 +12,10 @@ snippet y
 snippet rb
 	#!/usr/bin/env ruby -wKU
 
+snippet timing
+	timing_method do
+		${1}
+	end
 snippet req
 	require "${1}"${2}
 snippet #
@@ -418,3 +422,9 @@ snippet tas
 	task :${2:task_name => [:dependent, :tasks]} do
 		${3}
 	end
+
+# Personally added
+snippet each
+	each{|${1:var}|
+		$2
+	}
