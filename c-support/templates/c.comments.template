@@ -1,6 +1,7 @@
 $%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 == comment.end-of-line-comment == append ==
-/* <CURSOR> */
+/* <CURSOR>
+ */
 $%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 == comment.frame ==
 /*-----------------------------------------------------------------------------
@@ -8,7 +9,7 @@ $%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
  *-----------------------------------------------------------------------------*/
 $%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 == comment.function ==
-/* 
+/*
  * ===  FUNCTION  ======================================================================
  *         Name:  |?FUNCTION_NAME|
  *  Description:  <CURSOR>
@@ -70,51 +71,51 @@ $%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
  * =====================================================================================
  */
 $%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-== comment.file-section-cpp-header-includes  == 
+== comment.file-section-cpp-header-includes  ==
 /* #####   HEADER FILE INCLUDES   ################################################### */
 
 $%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-== comment.file-section-cpp-macros  == 
+== comment.file-section-cpp-macros  ==
 /* #####   MACROS  -  LOCAL TO THIS SOURCE FILE   ################################### */
 
 $%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-== comment.file-section-cpp-typedefs  == 
+== comment.file-section-cpp-typedefs  ==
 /* #####   TYPE DEFINITIONS  -  LOCAL TO THIS SOURCE FILE   ######################### */
 
 $%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-== comment.file-section-cpp-data-types  == 
+== comment.file-section-cpp-data-types  ==
 /* #####   DATA TYPES  -  LOCAL TO THIS SOURCE FILE   ############################### */
 
 $%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-== comment.file-section-cpp-class-defs  == 
+== comment.file-section-cpp-class-defs  ==
 /* #####   CLASS DEFINITIONS  -  LOCAL TO THIS SOURCE FILE   ######################## */
 
 $%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-== comment.file-section-cpp-local-variables  == 
+== comment.file-section-cpp-local-variables  ==
 /* #####   VARIABLES  -  LOCAL TO THIS SOURCE FILE   ################################ */
 
 $%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-== comment.file-section-cpp-prototypes  == 
+== comment.file-section-cpp-prototypes  ==
 /* #####   PROTOTYPES  -  LOCAL TO THIS SOURCE FILE   ############################### */
 
 $%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-== comment.file-section-cpp-function-defs-exported  == 
+== comment.file-section-cpp-function-defs-exported  ==
 /* #####   FUNCTION DEFINITIONS  -  EXPORTED FUNCTIONS   ############################ */
 
 $%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-== comment.file-section-cpp-function-defs-local  == 
+== comment.file-section-cpp-function-defs-local  ==
 /* #####   FUNCTION DEFINITIONS  -  LOCAL TO THIS SOURCE FILE   ##################### */
 
 $%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-== comment.file-section-cpp-class-implementations-exported  == 
+== comment.file-section-cpp-class-implementations-exported  ==
 /* #####   CLASS IMPLEMENTATIONS  -  EXPORTED CLASSES   ############################# */
 
 $%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-== comment.file-section-cpp-class-implementations-local  == 
+== comment.file-section-cpp-class-implementations-local  ==
 /* #####   CLASS IMPLEMENTATIONS  -  LOCAL CLASSES   ################################ */
 
 $%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-== comment.file-section-hpp-header-includes  == 
+== comment.file-section-hpp-header-includes  ==
 /* #####   HEADER FILE INCLUDES   ################################################### */
 
 $%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
