@@ -1,4 +1,5 @@
 Collection of Vim plugins.
+Organized via Pathogen.
 
 - NERD_tree
   File browser w/in vim.  Activated with Ctrl-N
@@ -17,3 +18,12 @@ Collection of Vim plugins.
 
 - MiniBufExplorer
   List of open buffers toggled by ,mbe or ,mbc at the top of the screen.
+
+- cscope_maps
+  Mappings for cscope support.
+
+- taglist
+  Assistance for ctags/cscope, creates list of tags on left side of screen.
+
+- matchit
+  Improved syntax matching.
