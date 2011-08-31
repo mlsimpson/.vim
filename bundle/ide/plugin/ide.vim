@@ -87,16 +87,16 @@ highlight MyTagListTitle gui=bold guifg=DarkRed guibg=LightGray
 highlight MyTagListComment guifg=DarkGreen
 " TagListFileName - Used for filenames
 highlight MyTagListFileName gui=bold guifg=Black guibg=LightBlue
-"let Tlist_Ctags_Cmd = $VIM.'/vimfiles/ctags.exe' " location of ctags tool
+let Tlist_Ctags_Cmd = /usr/local/bin/ctags
 let Tlist_Show_One_File = 1 " Displaying tags for only one file~
-let Tlist_Exist_OnlyWindow = 1 " if you are the last, kill yourself
+let Tlist_Exit_OnlyWindow = 1 " if you are the last, kill yourself
 let Tlist_Use_Right_Window = 1 " split to the right side of the screen
 let Tlist_Sort_Type = "order" " sort by order or name
 let Tlist_Display_Prototype = 0 " do not show prototypes and not tags in the taglist window.
-let Tlist_Compart_Format = 1 " Remove extra information and blank lines from the taglist window.
+let Tlist_Compact_Format = 1 " Remove extra information and blank lines from the taglist window.
 let Tlist_GainFocus_On_ToggleOpen = 1 " Jump to taglist window on open.
 let Tlist_Display_Tag_Scope = 1 " Show tag scope next to the tag name.
-let Tlist_Close_On_Select = 1 " Close the taglist window when a file or tag is selected.
+" let Tlist_Close_On_Select = 1 " Close the taglist window when a file or tag is selected.
 let Tlist_Enable_Fold_Column = 0 " Don't Show the fold indicator column in the taglist window.
 let Tlist_WinWidth = 40
 " let Tlist_Ctags_Cmd = 'ctags --c++-kinds=+p --fields=+iaS --extra=+q --languages=c++'
@@ -142,7 +142,7 @@ let OmniCpp_GlobalScopeSearch = 1
 " 0 = namespaces disabled
 " 1 = search namespaces in the current buffer
 " 2 = search namespaces in the current buffer and in included files
-let OmniCpp_NamespaceSearch = 1
+let OmniCpp_NamespaceSearch = 2
 " 0 = auto
 " 1 = always show all members
 let OmniCpp_DisplayMode = 1
@@ -158,10 +158,10 @@ let OmniCpp_ShowPrototypeInAbbr = 1
 " 1 = show access
 let OmniCpp_ShowAccess = 1
 " This option can be use if you don't want to parse using namespace declarations in included files and want to add namespaces that are always used in your project.
-let OmniCpp_DefaultNamespaces = ["std"]
+let OmniCpp_DefaultNamespaces = ["std", "_GLIBCXX_STD"]
 " Complete Behaviour
-let OmniCpp_MayCompleteDot = 0
-let OmniCpp_MayCompleteArrow = 0
-let OmniCpp_MayCompleteScope = 0
+let OmniCpp_MayCompleteDot = 1
+let OmniCpp_MayCompleteArrow = 1
+let OmniCpp_MayCompleteScope = 1
 " When 'completeopt' does not contain "longest", Vim automatically select the first entry of the popup menu. You can change this behaviour with the OmniCpp_SelectFirstItem option.
 let OmniCpp_SelectFirstItem = 0
