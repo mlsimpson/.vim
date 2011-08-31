@@ -4,3 +4,6 @@
 [submodule "bundle/vim-project"]
 	path = bundle/vim-project
 	url = git://github.com/shemerey/vim-project.git
+[submodule "bundle/jasmine.vim"]
+	path = bundle/jasmine.vim
+	url = git://github.com/claco/jasmine.vim.git
