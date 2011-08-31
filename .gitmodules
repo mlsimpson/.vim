@@ -25,3 +25,6 @@
 [submodule "bundle/vimerl"]
 	path = bundle/vimerl
 	url = git://github.com/oscarh/vimerl.git
+[submodule "bundle/VimClosure"]
+	path = bundle/VimClosure
+	url = git://github.com/vim-scripts/VimClojure.git

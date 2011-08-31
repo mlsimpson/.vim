@@ -105,6 +105,14 @@ let Tlist_WinWidth = 50
 ":TlistShowPrototype [filename] [linenumber]
 
 " --------------------
+" Tagbar
+" --------------------
+" Set width
+let g:tagbar_width = 50
+" autofocus
+let g:tagbar_autofocus = 1
+
+" --------------------
 " MiniBufExpl
 " --------------------
 let g:miniBufExplTabWrap = 1 " make tabs show complete (no broken on two lines)
