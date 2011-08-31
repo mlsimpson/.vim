@@ -131,7 +131,7 @@ highlight MBEVisibleChanged term=bold cterm=bold gui=bold guibg=DarkRed guifg=Bl
 imap <C-j> <C-X><C-O>
 " :inoremap <expr> <CR> pumvisible() ? "\<c-y>" : "\<c-g>u\<CR>"
 " set completeopt as don't show menu and preview
-set completeopt=menuone
+" set completeopt=menuone
 " Popup menu hightLight Group
 highlight Pmenu ctermbg=13 guibg=LightGray
 highlight PmenuSel ctermbg=7 guibg=DarkBlue guifg=White
