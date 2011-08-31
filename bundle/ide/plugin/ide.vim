@@ -87,7 +87,7 @@ highlight MyTagListTitle gui=bold guifg=DarkRed guibg=LightGray
 highlight MyTagListComment guifg=DarkGreen
 " TagListFileName - Used for filenames
 highlight MyTagListFileName gui=bold guifg=Black guibg=LightBlue
-let Tlist_Ctags_Cmd = /usr/local/bin/ctags
+let Tlist_Ctags_Cmd = 'ctags -R'
 let Tlist_Show_One_File = 1 " Displaying tags for only one file~
 let Tlist_Exit_OnlyWindow = 1 " if you are the last, kill yourself
 let Tlist_Use_Right_Window = 1 " split to the right side of the screen
@@ -98,7 +98,7 @@ let Tlist_GainFocus_On_ToggleOpen = 1 " Jump to taglist window on open.
 let Tlist_Display_Tag_Scope = 1 " Show tag scope next to the tag name.
 " let Tlist_Close_On_Select = 1 " Close the taglist window when a file or tag is selected.
 let Tlist_Enable_Fold_Column = 0 " Don't Show the fold indicator column in the taglist window.
-let Tlist_WinWidth = 40
+let Tlist_WinWidth = 50
 " let Tlist_Ctags_Cmd = 'ctags --c++-kinds=+p --fields=+iaS --extra=+q --languages=c++'
 " very slow, so I disable this
 " let Tlist_Process_File_Always = 1 " To use the :TlistShowTag and the :TlistShowPrototype commands without the taglist window and the taglist menu, you should set this variable to 1.
