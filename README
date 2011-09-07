@@ -22,8 +22,11 @@ Organized via Pathogen.
 - cscope_maps
   Mappings for cscope support.
 
-- taglist
-  Assistance for ctags/cscope, creates list of tags on left side of screen.
+- Tagbar
+  Assistance for ctags/cscope, creates list of tags.  Improvement on Taglist.
 
 - matchit
   Improved syntax matching.
+
+- pythoncomplete
+  Omni Completion for python.
