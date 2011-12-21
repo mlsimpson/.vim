@@ -1,32 +1,74 @@
 Collection of Vim plugins.
 Organized via Pathogen.
 
-- NERD_tree
-  File browser w/in vim.  Activated with Ctrl-N
+- cscope_maps
+  Mappings for cscope support.
 
 - cvim
   Adds hella c support for vim.
 
-- rails
-  Rails support.
+- ide
+  Makes vim behave more like an integrated IDE
 
-- NERD_Commenter
-  Mo' badass text commenting.
-
-- snipMate
-  Adds TextMate-like snippets with tab completion to a multitude of languages.
-
-- MiniBufExplorer
-  List of open buffers toggled by ,mbe or ,mbc at the top of the screen.
-
-- cscope_maps
-  Mappings for cscope support.
-
-- Tagbar
-  Assistance for ctags/cscope, creates list of tags.  Improvement on Taglist.
+- jasmine.vim
+  Support for the Jasmine javascript BDD testing framework
 
 - matchit
   Improved syntax matching.
 
+- MiniBufExplorer
+  List of open buffers toggled by ,mbe or ,mbc at the top of the screen.
+
+- NERD_Commenter
+  Mo' badass text commenting.
+
+- NERD_tree
+  File browser w/in vim.  Activated with Ctrl-N
+
+- OmniCPPComplete
+  Adds tremendous support to C/C++ completion (methods, classes, etc.)
+
 - pythoncomplete
   Omni Completion for python.
+
+- rails
+  Rails support.
+
+- scalasyntax
+  syntax support for the Scala language
+
+- snipMate
+  Adds TextMate-like snippets with tab completion to a multitude of languages.
+
+- supertab
+  Perform all your insert completion using the tab key.
+
+- syntastic
+  Robust automatic syntax checking
+
+- Tagbar
+  Assistance for ctags/cscope, creates list of tags.  Improvement on Taglist.
+
+- VimClojure
+  Support for Clojure
+
+- vim-coffee-script
+  Support for coffeescript
+
+- vim-cucumber
+  Support for the Cucumber BDD testing framework
+
+- vimerl
+  Support for Erlang
+
+- vim-fugitive
+  A git wrapper so awesome, it should be illegal
+
+- vim-golang
+  Support for Go
+
+- vim-project
+  Organize/Navigate projects of files (like IDE/buffer explorer)
+
+- vim-showmarks
+  Visually show the location of marks on the left sidebar
