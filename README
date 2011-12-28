@@ -67,6 +67,9 @@ Organized via Pathogen.
 - vim-golang
   Support for Go
 
+- vim-indent-guide
+  Visual markers for code indentation
+
 - vim-project
   Organize/Navigate projects of files (like IDE/buffer explorer)
 
