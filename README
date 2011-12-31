@@ -49,6 +49,9 @@ Organized via Pathogen.
 - Tagbar
   Assistance for ctags/cscope, creates list of tags.  Improvement on Taglist.
 
+- Textile
+  Support for .textile files
+
 - VimClojure
   Support for Clojure
 
