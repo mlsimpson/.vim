@@ -58,9 +58,6 @@ Organized via Pathogen.
 - Textile
   Support for .textile files
 
-- UltiSnips
-  "Ultimate" TextMate-like snippets for Python-enabled Vim
-
 - VimClojure
   Support for Clojure
 
