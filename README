@@ -4,6 +4,9 @@ Organized via Pathogen.
 - argtextobj
   Add arguments to text object support
 
+- Command-T
+  Open files with <Leader>t
+
 - cscope_maps
   Mappings for cscope support.
 
