@@ -67,6 +67,9 @@ Organized via Pathogen.
 - vim-cucumber
   Support for the Cucumber BDD testing framework
 
+- vim-easymotion
+  easymotion plugin; removes the need for using numbers in motion arguments
+
 - vimerl
   Support for Erlang
 
