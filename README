@@ -1,6 +1,9 @@
 Collection of Vim plugins.
 Organized via Pathogen.
 
+- argtextobj
+  Add arguments to text object support
+
 - cscope_maps
   Mappings for cscope support.
 
