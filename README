@@ -19,6 +19,9 @@ Organized via Pathogen.
 - matchit
   Improved syntax matching.
 
+- MatchTag
+  Matches HTML Tags
+
 - MiniBufExplorer
   List of open buffers toggled by ,mbe or ,mbc at the top of the screen.
 
