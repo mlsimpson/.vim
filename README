@@ -87,3 +87,6 @@ Organized via Pathogen.
 
 - vim-showmarks
   Visually show the location of marks on the left sidebar
+
+- vim-surround
+  Tim Pope's surround.vim is all about "surroundings": parentheses, brackets, quotes, XML tags, and more. The plugin provides mappings to easily delete, change and add such surroundings in pairs.
