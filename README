@@ -94,6 +94,9 @@ Organized via Pathogen.
 - vim-pasta
   Pasting in Vim with indentation adjusted to destination context.
 
+- vim-powerline
+  nifty statusbar plugin
+
 - vim-project
   Organize/Navigate projects of files (like IDE/buffer explorer)
 
