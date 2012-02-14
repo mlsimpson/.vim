@@ -7,6 +7,9 @@ Organized via Pathogen.
 - Command-T
   Open files with <Leader>t
 
+- ConqueTerm
+  a terminal emulator which uses a Vim buffer to display the program output.
+
 - cscope_maps
   Mappings for cscope support.
 
