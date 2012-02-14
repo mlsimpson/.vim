@@ -88,6 +88,9 @@ Organized via Pathogen.
 - vim-indent-guide
   Visual markers for code indentation
 
+- vim-pasta
+  Pasting in Vim with indentation adjusted to destination context.
+
 - vim-project
   Organize/Navigate projects of files (like IDE/buffer explorer)
 
