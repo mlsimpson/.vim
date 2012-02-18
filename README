@@ -7,9 +7,6 @@ Organized via Pathogen.
 - Command-T
   Open files with <Leader>t
 
-- ConqueTerm
-  a terminal emulator which uses a Vim buffer to display the program output.
-
 - cscope_maps
   Mappings for cscope support.
 
@@ -21,9 +18,6 @@ Organized via Pathogen.
 
 - ide
   Makes vim behave more like an integrated IDE
-
-- jasmine.vim
-  Support for the Jasmine javascript BDD testing framework
 
 - matchit
   Improved syntax matching.
@@ -88,9 +82,6 @@ Organized via Pathogen.
 - vim-golang
   Support for Go
 
-- vim-indent-guide
-  Visual markers for code indentation
-
 - vim-pasta
   Pasting in Vim with indentation adjusted to destination context.
 
@@ -104,4 +95,5 @@ Organized via Pathogen.
   Visually show the location of marks on the left sidebar
 
 - vim-surround
-  Tim Pope's surround.vim is all about "surroundings": parentheses, brackets, quotes, XML tags, and more. The plugin provides mappings to easily delete, change and add such surroundings in pairs.
+  Tim Pope's surround.vim is all about "surroundings": parentheses, brackets, quotes, XML tags, and more.
+  The plugin provides mappings to easily delete, change and add such surroundings in pairs.
