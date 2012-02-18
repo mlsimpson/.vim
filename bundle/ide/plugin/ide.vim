@@ -72,37 +72,37 @@ let g:proj_window_increment = 50
  "endif
 "endfunction
 
-" --------------------
-" TagList
-" --------------------
-" F4: Switch on/off TagList
-nnoremap <silent> <Leader>tlist :TlistToggle<CR>
-" TagListTagName - Used for tag names
-highlight MyTagListTagName gui=bold guifg=Black guibg=Orange
-" TagListTagScope - Used for tag scope
-highlight MyTagListTagScope gui=NONE guifg=Blue
-" TagListTitle - Used for tag titles
-highlight MyTagListTitle gui=bold guifg=DarkRed guibg=LightGray
-" TagListComment - Used for comments
-highlight MyTagListComment guifg=DarkGreen
-" TagListFileName - Used for filenames
-highlight MyTagListFileName gui=bold guifg=Black guibg=LightBlue
-let Tlist_Ctags_Cmd = 'ctags -R'
-let Tlist_Show_One_File = 1 " Displaying tags for only one file~
-let Tlist_Exit_OnlyWindow = 1 " if you are the last, kill yourself
-let Tlist_Use_Right_Window = 1 " split to the right side of the screen
-let Tlist_Sort_Type = "order" " sort by order or name
-let Tlist_Display_Prototype = 0 " do not show prototypes and not tags in the taglist window.
-let Tlist_Compact_Format = 1 " Remove extra information and blank lines from the taglist window.
-let Tlist_GainFocus_On_ToggleOpen = 1 " Jump to taglist window on open.
-let Tlist_Display_Tag_Scope = 1 " Show tag scope next to the tag name.
-" let Tlist_Close_On_Select = 1 " Close the taglist window when a file or tag is selected.
-let Tlist_Enable_Fold_Column = 0 " Don't Show the fold indicator column in the taglist window.
-let Tlist_WinWidth = 50
-" let Tlist_Ctags_Cmd = 'ctags --c++-kinds=+p --fields=+iaS --extra=+q --languages=c++'
-" very slow, so I disable this
-" let Tlist_Process_File_Always = 1 " To use the :TlistShowTag and the :TlistShowPrototype commands without the taglist window and the taglist menu, you should set this variable to 1.
-":TlistShowPrototype [filename] [linenumber]
+"" --------------------
+"" TagList
+"" --------------------
+"" F4: Switch on/off TagList
+"nnoremap <silent> <Leader>tlist :TlistToggle<CR>
+"" TagListTagName - Used for tag names
+"highlight MyTagListTagName gui=bold guifg=Black guibg=Orange
+"" TagListTagScope - Used for tag scope
+"highlight MyTagListTagScope gui=NONE guifg=Blue
+"" TagListTitle - Used for tag titles
+"highlight MyTagListTitle gui=bold guifg=DarkRed guibg=LightGray
+"" TagListComment - Used for comments
+"highlight MyTagListComment guifg=DarkGreen
+"" TagListFileName - Used for filenames
+"highlight MyTagListFileName gui=bold guifg=Black guibg=LightBlue
+"let Tlist_Ctags_Cmd = 'ctags -R'
+"let Tlist_Show_One_File = 1 " Displaying tags for only one file~
+"let Tlist_Exit_OnlyWindow = 1 " if you are the last, kill yourself
+"let Tlist_Use_Right_Window = 1 " split to the right side of the screen
+"let Tlist_Sort_Type = "order" " sort by order or name
+"let Tlist_Display_Prototype = 0 " do not show prototypes and not tags in the taglist window.
+"let Tlist_Compact_Format = 1 " Remove extra information and blank lines from the taglist window.
+"let Tlist_GainFocus_On_ToggleOpen = 1 " Jump to taglist window on open.
+"let Tlist_Display_Tag_Scope = 1 " Show tag scope next to the tag name.
+"" let Tlist_Close_On_Select = 1 " Close the taglist window when a file or tag is selected.
+"let Tlist_Enable_Fold_Column = 0 " Don't Show the fold indicator column in the taglist window.
+"let Tlist_WinWidth = 50
+"" let Tlist_Ctags_Cmd = 'ctags --c++-kinds=+p --fields=+iaS --extra=+q --languages=c++'
+"" very slow, so I disable this
+"" let Tlist_Process_File_Always = 1 " To use the :TlistShowTag and the :TlistShowPrototype commands without the taglist window and the taglist menu, you should set this variable to 1.
+"":TlistShowPrototype [filename] [linenumber]
 
 " --------------------
 " Tagbar
@@ -141,10 +141,10 @@ imap <C-j> <C-X><C-O>
 " set completeopt as don't show menu and preview
 " set completeopt=menuone
 " Popup menu hightLight Group
-highlight Pmenu ctermbg=13 guibg=LightGray
-highlight PmenuSel ctermbg=7 guibg=DarkBlue guifg=White
-highlight PmenuSbar ctermbg=7 guibg=DarkGray
-highlight PmenuThumb guibg=Black
+" highlight Pmenu ctermbg=13 guibg=LightGray
+" highlight PmenuSel ctermbg=7 guibg=DarkBlue guifg=White
+" highlight PmenuSbar ctermbg=7 guibg=DarkGray
+" highlight PmenuThumb guibg=Black
 " use global scope search
 let OmniCpp_GlobalScopeSearch = 1
 " 0 = namespaces disabled
