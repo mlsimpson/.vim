@@ -52,9 +52,6 @@ Organized via Pathogen.
 - snipMate
   Adds TextMate-like snippets with tab completion to a multitude of languages.
 
-- supertab
-  Perform all your insert completion using the tab key.
-
 - syntastic
   Robust automatic syntax checking
 
