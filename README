@@ -19,6 +19,9 @@ Organized via Pathogen.
 - ide
   Makes vim behave more like an integrated IDE
 
+- J
+  J-language syntax highlighting
+
 - matchit
   Improved syntax matching.
 
