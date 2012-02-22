@@ -10,9 +10,11 @@ Organized via Pathogen.
 - cscope_maps
   Mappings for cscope support.
 
+- current-func-info.vim
+  shows current function's name to statusline, tabline, anywhere.
+
 - cvim
   Adds hella c support for vim.
-
 - gundo
   Visualize vim's undo tree
 
