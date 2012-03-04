@@ -15,6 +15,7 @@ Organized via Pathogen.
 
 - cvim
   Adds hella c support for vim.
+
 - gundo
   Visualize vim's undo tree
 
