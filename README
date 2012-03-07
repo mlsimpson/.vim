@@ -52,9 +52,6 @@ Organized via Pathogen.
 - scalasyntax
   syntax support for the Scala language
 
-- snipMate
-  Adds TextMate-like snippets with tab completion to a multitude of languages.
-
 - syntastic
   Robust automatic syntax checking
 
@@ -63,6 +60,9 @@ Organized via Pathogen.
 
 - Textile
   Support for .textile files
+
+- ultisnips
+  Adds TextMate-like snippets with tab completion to a multitude of languages.
 
 - VimClojure
   Support for Clojure
