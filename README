@@ -4,6 +4,9 @@ Organized via Pathogen.
 - argtextobj
   Add arguments to text object support
 
+- AutoCloseTag
+  Automatically closes HTML tags once you finish typing them
+
 - Command-T
   Open files with <Leader>t
 
